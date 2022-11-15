@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    background-color: rgb(237 237 237);
+    height: 86vh;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.842);
+    color: black;
+    padding: 10px;
+}
+img{
+    float: left;
+}
+h1{
+    font-size: 1.5em;
+    margin-left: 20px;
+    color: #5d5b5b;
+}
+.note{
+    width: 25%;
+    background-color: white;
+    position: relative;
+    left: 35%;
+    top: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 8px #4a4949;
+}
+input {
+    width: 95%;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #7f7d7d;
+    margin: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+textarea {
+    width: 95%;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #7f7d7d;
+    margin: 5px;
+    padding: 13px 5px 5px 5px;
+    outline: none;
+    font-size: 1.2rem;
+    margin-bottom:20px;
+}
+.btnAdd{
+    font-size: large !important;
+    border-radius: 50% !important;
+    padding: 6px !important;
+    background-color: rgb(30 164 5) !important;
+    color: white !important;
+    min-width: 30px !important;
+    box-shadow: 1px 1px 9px #4a4a4a !important;
+    float: right !important;
+    bottom: 19px !important;
+    right: 13px !important;
+}
+.btnDel{
+    font-size: large !important;
+    border-radius: 50% !important;
+    padding: 6px !important;
+    background-color: rgb(215 27 27) !important;
+    color: white !important;
+    min-width: 30px !important;
+    box-shadow: 1px 1px 9px #552b2b !important;
+    float: right !important;
+    bottom: -17px !important;
+    right: 6px !important;
+}
+.written_note{
+    width: 20%;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    left: 35px;
+    margin-right: 35px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 3px 2px 8px #4a4949;
+    max-height: 260px;
+    margin-bottom: 35px;
+}
+h2 {
+    font-family: monospace;
+    padding: 5px;
+}
+p {
+    font-family: monospace;
+    padding: 5px;
+    overflow: overlay;
+    height: 63px;
+    max-height: 100px;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.842);
+    color: black;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+}
